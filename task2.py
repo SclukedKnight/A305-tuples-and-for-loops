@@ -23,3 +23,14 @@ That name is on the list
 """
 
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+
+namecheck = str(input("Enter name: "))
+
+done = False
+
+for name in nameList:
+    if name == namecheck:
+        done = True
+        break
+
+print(done)
